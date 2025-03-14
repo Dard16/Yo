@@ -3,67 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Información del Estudiante</title>
+    <title>Recetas de Cocina</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            text-align: center;
-            padding: 20px;
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        .info-container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            width: 50%;
-            margin: 0 auto;
-        }
-
-        .series-container {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .serie {
-            background-color: white;
-            padding: 15px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            width: 300px;
-        }
-
-        .serie img {
-            width: 100%;
-            border-radius: 10px;
-        }
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f8f8f8; }
+        .receta { background: white; padding: 20px; margin: 20px auto; width: 80%; max-width: 500px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        img { width: 100%; border-radius: 10px; }
+        h1 { background: #ff6347; color: white; padding: 15px; }
+        ul, ol { text-align: left; display: inline-block; }
     </style>
 </head>
 <body>
-    <h1>Información del Estudiante</h1>
-    <div class="info-container">
-        <p><strong>Nombre:</strong> Daniel Rincon</p>
-        <p><strong>Semestre:</strong> 6</p>
-        <p><strong>Hobbies:</strong> Hacer ejercicio</p>
+    <h1>Recetas de Cocina</h1>
+
+    <div class="receta">
+        <h2>Tacos de Pollo</h2>
+        <img src="https://via.placeholder.com/300" alt="Tacos de Pollo">
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>2 pechugas de pollo</li>
+            <li>8 tortillas de maíz</li>
+            <li>1 cebolla, 1 tomate, sal y pimienta</li>
+        </ul>
+        <h3>Preparación:</h3>
+        <ol>
+            <li>Cocinar el pollo y desmenuzarlo.</li>
+            <li>Picar la cebolla y el tomate.</li>
+            <li>Calentar las tortillas, rellenarlas y servir.</li>
+        </ol>
     </div>
-    
-    <h2>Series Favoritas</h2>
-    <div class="series-container">
-        <div class="serie">
-            <h3>Breaking Bad</h3>
-            <img src="https://upload.wikimedia.org/wikipedia/en/6/61/Breaking_Bad_title_card.png" alt="Breaking Bad">
-        </div>
-        <div class="serie">
-            <h3>Stranger Things</h3>
-            <img src="https://upload.wikimedia.org/wikipedia/en/f/f7/Stranger_Things_season_4.jpg" alt="Stranger Things">
-        </div>
+
+    <div class="receta">
+        <h2>Pasta Alfredo</h2>
+        <img src="https://via.placeholder.com/300" alt="Pasta Alfredo">
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>250g de pasta, 200ml de crema, 50g de parmesano</li>
+        </ul>
+        <h3>Preparación:</h3>
+        <ol>
+            <li>Cocinar la pasta.</li>
+            <li>Preparar la salsa con crema y queso.</li>
+            <li>Mezclar y servir caliente.</li>
+        </ol>
     </div>
 </body>
 </html>
